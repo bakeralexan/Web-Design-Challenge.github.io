@@ -39,7 +39,9 @@ body {
     font-size: 1em;
     color: white;
 }
-
+/* .nav-link {
+    color: white;
+} */
 @media (max-width: 480px) {
     .navbar {
         background-color:rgb(2, 161, 153);
@@ -50,6 +52,9 @@ body {
     }
     .navbar ul {
       visibility: visible;
+    }
+    .nav-link {
+        color: white !important;
     }
   }
 @media only screen and (max-width: 768px) {
@@ -66,5 +71,8 @@ body {
     }
     .navbar ul {
       visibility: visible;
+    }
+    .nav-link {
+        color: white !important;
     }
 }
