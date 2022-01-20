@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css"href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="./landing.html"><span class="latitude">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a href="./visualizations-img-1.html">Max Temperature</a></li>
+            <li><a href="./visualizations-img-2.html">Humidity</a></li>
+            <li><a href="./visualizations-img-3.html">Cloudiness</a></li>
+            <li><a href="./visualizations-img-4.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+    <div class="card bg-light">
+        <div class=" card col-md-12 col-sm-12">
+            <h3 class="title">vs. Max Temperature</h3>
+            <img src="assets/images/Fig1.png" class="float-lg-right" alt="City Latitude vs. Max Temperature" width="80%">
+            <p>Notice the parabola shape of the City Latitude vs Maximum Temperature graph. Unlike the other comparisons, there seems to be a strong relationship between the two factors. The highest max temperatures occur most in places closest to the Equator (0 degrees in Latitude). That said, it also appears that max temperatures in the Southern Hemisphere are higher than those in the Northern Hemisphere. In actuality, this sample has more datapoints for cities the Northern Hemisphere and datapoints closer to the the North Pole. Maximum temperatures north of the Equator (i.e. Latitudes higher than zero) generally have lower maximum temperatures. The further the Latitude is from the Equator, the lower the maximum temperature. This logically makes sense because the highest latitude possible is 90 degrees, at the North Pole, the place with the lowest recorded Max Temperatures.</p>
+        </div>
+
+    </div>
+</body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
